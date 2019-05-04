@@ -31,7 +31,6 @@ expected_stdout_results = [
     'a2 = 12.0\n'
     'a3 = 4.0\n'
     'a1 + a2 + a3 = 22.0\n'
-
     ,
     'q = 2601.0\n'
     'abc = 2703.0\n'
