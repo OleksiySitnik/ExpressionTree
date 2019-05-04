@@ -1,0 +1,12 @@
+abc=60-5-4
+q=abc^2
+abc=abc*2+q
+m=abc*(q-abc)
+>>q
+>>abc
+>>2-abc/q
+
+q=q*3
+>>(abc/4)^2
+>>q
+>>abc
