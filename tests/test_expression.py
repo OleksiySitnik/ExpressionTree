@@ -1,6 +1,6 @@
 import pytest
 
-from expression_tree.expression_ import Expression
+from expression_tree.expression import Expression
 
 
 @pytest.mark.parametrize("expression, expected_pn", [

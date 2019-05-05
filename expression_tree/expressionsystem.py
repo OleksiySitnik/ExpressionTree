@@ -1,5 +1,5 @@
 from expression_tree.errors import ExpressionSyntaxError, VariableNameError, UndefinedVariableError
-from expression_tree.expression_ import Expression
+from expression_tree.expression import Expression
 from expression_tree.tree import BinaryTree, Root
 
 
@@ -72,7 +72,7 @@ class ExpressionSystem:
                                         .format(self._expressions[i], i + 1, self._file))
 
             if res_tree[i].value == ">>":
-                expression = str(self.expressions[i])[2:]
+                expression = str(self.expressions[i])[2:].strip()
                 result = res_tree[i].left.temp_value
 
                 if result is None:
