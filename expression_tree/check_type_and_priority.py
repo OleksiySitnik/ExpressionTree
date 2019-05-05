@@ -13,6 +13,3 @@ def is_operator(char):
 def get_priority(c):
     priorities = {'+': 1, '-': 1, '*': 2, '/': 2, '^': 3}
     return priorities.get(c, 0)
-
-if __name__ == "__main__":
-    print(__path__)
